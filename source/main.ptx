@@ -52,7 +52,40 @@
       <section xml:id="section-title">
         <title>Section title</title>
         <p>Hello</p>
+
+<definition xml:id="def-1a">
+  <statement>
+    <p>
+      And an example of <term>math</term> <m>\sin(x^2)</m>
+    </p>
+  </statement>
+</definition>
+
+<p>
+  As we saw in <xref ref="def-1a"/>, math is cool.
+</p>
+<figure xml:id="myfig">
+          <caption>A tikz image</caption>
+          <image width="25%">
+            <description>An example image</description>
+            <latex-image>
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (1,1);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+
       </section>
+
+<section xml:id="sec-second-section">
+  <title>Second Section</title>
+
+  <p>
+    more words
+  </p>
+  
+</section>
 
     </chapter>
 
